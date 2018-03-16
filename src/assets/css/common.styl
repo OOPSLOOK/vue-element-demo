@@ -1,0 +1,45 @@
+//初始化样式
+*
+    margin 0px
+    padding 0px
+
+html,body 
+    font-family: "Microsoft Yahei"
+
+ul,ol,li
+    list-style none
+
+//基础样式
+.fl
+    float left
+.fr
+    float right
+
+.clearfix
+    &::before,
+    &::after
+        content ""
+        display block
+        visibility hidden
+        height 0px
+    &::after
+        clear both
+.rel
+    position: relative
+.ads
+    position absolute
+.fixed
+    position fixed
+    top 0
+    left 0
+.hide
+    visibility hidden
+    width 0
+    height 0
+
+//公共样式
+html,body,#app,.project-page
+    height 100%
+.project-content
+    position relative
+    
